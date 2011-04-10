@@ -1,14 +1,10 @@
-/* jQuery EasyTimepicker v1.0
- * Replaces input html elements with select elements of time values separated by a 
- * specified interval. Selection of dropdown values are propogated back to the underlying
- * input elements, and updates of input elements with the jQuery val()  method results
- * in the selection of the closest time entry in the corresponding select element.
+/* jQuery EasyTimepicker v0.1
+ * https://github.com/BruceHill/EasyTimepicker
  *
  * Copyright (c) 2011 Bruce Hill
  *
  * Dual licensed under the MIT and GPL licenses.
-*/
-
+ */
 (function($){
     var _uuid = new Date().getTime();
 	var _maxMinutes = 1439; /* minutes calculations are zero indexed, therefore 0 to 1439 minutes = 1440 minutes = 24 hours */
