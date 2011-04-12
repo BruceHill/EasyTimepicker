@@ -8,7 +8,7 @@
 (function($){
 	// Bind to pagebeforecreate to automatically enhance time inputs
     $( "[data-role=page]" ).live( "pagebeforecreate", function(){
-          $( "input[type='time'], input:jqmData(type='time')" ).each(function(){
+          $( "input[type='time']" ).each(function(){
 		     var $this = $(this);
 		     if (!$this.hasClass("easytimepicker-haspicker")) {
 		         $options = { 
